@@ -4,3 +4,94 @@ I, [2014-02-11T11:31:31.906240 #1762]  INFO -- : 0:  rack-protection (1.5.2) fro
 I, [2014-02-11T11:31:31.906768 #1762]  INFO -- : 0:  tilt (1.4.1) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/tilt-1.4.1.gemspec
 I, [2014-02-11T11:31:31.907172 #1762]  INFO -- : 0:  sinatra (1.4.4) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/sinatra-1.4.4.gemspec
 I, [2014-02-11T11:31:31.907550 #1762]  INFO -- : 0:  bundler (1.5.1) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/bundler-1.5.1.gemspec
+I, [2014-02-11T11:36:59.902932 #1852]  INFO -- : 0:  addressable (2.3.5) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/addressable-2.3.5.gemspec
+I, [2014-02-11T11:37:07.623245 #1852]  INFO -- : 0:  bcrypt-ruby (3.1.2) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/bcrypt-ruby-3.1.2.gemspec
+I, [2014-02-11T11:37:10.596148 #1852]  INFO -- : 0:  dm-core (1.2.1) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/dm-core-1.2.1.gemspec
+I, [2014-02-11T11:37:12.027821 #1852]  INFO -- : 0:  dm-aggregates (1.2.0) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/dm-aggregates-1.2.0.gemspec
+I, [2014-02-11T11:37:13.449371 #1852]  INFO -- : 0:  dm-constraints (1.2.0) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/dm-constraints-1.2.0.gemspec
+I, [2014-02-11T11:37:15.940027 #1852]  INFO -- : 0:  dm-migrations (1.2.0) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/dm-migrations-1.2.0.gemspec
+I, [2014-02-11T11:37:18.200130 #1852]  INFO -- : 0:  fastercsv (1.5.5) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/fastercsv-1.5.5.gemspec
+I, [2014-02-11T11:37:18.200527 #1852]  INFO -- : 0:  json (1.8.1) from /Users/Ayaz/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/default/json-1.8.1.gemspec
+I, [2014-02-11T11:37:25.380825 #1852]  INFO -- : 0:  json_pure (1.8.1) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/json_pure-1.8.1.gemspec
+I, [2014-02-11T11:37:25.381242 #1852]  INFO -- : 0:  multi_json (1.8.4) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/multi_json-1.8.4.gemspec
+I, [2014-02-11T11:37:26.817022 #1852]  INFO -- : 0:  dm-serializer (1.2.2) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/dm-serializer-1.2.2.gemspec
+I, [2014-02-11T11:37:28.345233 #1852]  INFO -- : 0:  dm-timestamps (1.2.0) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/dm-timestamps-1.2.0.gemspec
+I, [2014-02-11T11:37:30.304301 #1852]  INFO -- : 0:  dm-transactions (1.2.0) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/dm-transactions-1.2.0.gemspec
+I, [2014-02-11T11:37:32.628674 #1852]  INFO -- : 0:  stringex (1.5.1) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/stringex-1.5.1.gemspec
+I, [2014-02-11T11:37:35.338984 #1852]  INFO -- : 0:  uuidtools (2.1.4) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/uuidtools-2.1.4.gemspec
+I, [2014-02-11T11:37:36.815015 #1852]  INFO -- : 0:  dm-types (1.2.2) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/dm-types-1.2.2.gemspec
+I, [2014-02-11T11:37:38.454409 #1852]  INFO -- : 0:  dm-validations (1.2.0) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/dm-validations-1.2.0.gemspec
+I, [2014-02-11T11:37:40.015802 #1852]  INFO -- : 0:  data_mapper (1.2.0) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/data_mapper-1.2.0.gemspec
+I, [2014-02-11T11:37:43.811615 #1852]  INFO -- : 0:  data_objects (0.10.13) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/data_objects-0.10.13.gemspec
+I, [2014-02-11T11:37:45.771967 #1852]  INFO -- : 0:  dm-do-adapter (1.2.0) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/dm-do-adapter-1.2.0.gemspec
+E, [2014-02-11T11:37:47.945820 #1852] ERROR -- : Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    /Users/Ayaz/.rvm/rubies/ruby-2.1.0/bin/ruby extconf.rb 
+checking for main() in -lpq... yes
+checking for libpq-fe.h... no
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/Users/Ayaz/.rvm/rubies/ruby-2.1.0/bin/ruby
+	--with-pgsql-server-dir
+	--without-pgsql-server-dir
+	--with-pgsql-server-include
+	--without-pgsql-server-include=${pgsql-server-dir}/include
+	--with-pgsql-server-lib
+	--without-pgsql-server-lib=${pgsql-server-dir}/lib
+	--with-pgsql-client-dir
+	--without-pgsql-client-dir
+	--with-pgsql-client-include
+	--without-pgsql-client-include=${pgsql-client-dir}/include
+	--with-pgsql-client-lib
+	--without-pgsql-client-lib=${pgsql-client-dir}/lib
+	--with-pqlib
+	--without-pqlib
+Could not find PostgreSQL build environment (libraries & headers): Makefile not created
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /Users/Ayaz/.rvm/gems/ruby-2.1.0/gems/do_postgres-0.10.13 for inspection.
+Results logged to /Users/Ayaz/.rvm/gems/ruby-2.1.0/extensions/x86_64-darwin-12/2.1.0-static/do_postgres-0.10.13/gem_make.out
+
+/Users/Ayaz/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:89:in `run'  \n/Users/Ayaz/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:37:in `block in build'  \n/Users/Ayaz/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/tempfile.rb:324:in `open'  \n/Users/Ayaz/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:17:in `build'  \n/Users/Ayaz/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:161:in `block (2 levels) in build_extension'  \n/Users/Ayaz/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:160:in `chdir'  \n/Users/Ayaz/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:160:in `block in build_extension'  \n/Users/Ayaz/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:159:in `synchronize'  \n/Users/Ayaz/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:159:in `build_extension'  \n/Users/Ayaz/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:198:in `block in build_extensions'  \n/Users/Ayaz/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:195:in `each'  \n/Users/Ayaz/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:195:in `build_extensions'  \n/Users/Ayaz/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/installer.rb:677:in `build_extensions'  \n/Users/Ayaz/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/installer.rb:232:in `install'  \n/Users/Ayaz/.rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:101:in `block in install'  \n/Users/Ayaz/.rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \n/Users/Ayaz/.rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \n/Users/Ayaz/.rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \n/Users/Ayaz/.rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \n/Users/Ayaz/.rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \n/Users/Ayaz/.rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \n/Users/Ayaz/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/Users/Ayaz/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/Users/Ayaz/.rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \n/Users/Ayaz/.rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \n/Users/Ayaz/.rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \n/Users/Ayaz/.rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \n/Users/Ayaz/.rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \n/Users/Ayaz/.rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \n/Users/Ayaz/.rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \n/Users/Ayaz/.rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \n/Users/Ayaz/.rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \n/Users/Ayaz/.rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \n/Users/Ayaz/.rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \n/Users/Ayaz/.rvm/gems/ruby-2.1.0/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \n/Users/Ayaz/.rvm/gems/ruby-2.1.0/bin/bundle:23:in `load'  \n/Users/Ayaz/.rvm/gems/ruby-2.1.0/bin/bundle:23:in `<main>'  \n/Users/Ayaz/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'  \n/Users/Ayaz/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+I, [2014-02-11T12:00:15.987162 #3688]  INFO -- : 0:  addressable (2.3.5) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/addressable-2.3.5.gemspec
+I, [2014-02-11T12:00:15.987568 #3688]  INFO -- : 0:  bcrypt-ruby (3.1.2) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/bcrypt-ruby-3.1.2.gemspec
+I, [2014-02-11T12:00:15.987847 #3688]  INFO -- : 0:  dm-core (1.2.1) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/dm-core-1.2.1.gemspec
+I, [2014-02-11T12:00:15.988131 #3688]  INFO -- : 0:  dm-aggregates (1.2.0) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/dm-aggregates-1.2.0.gemspec
+I, [2014-02-11T12:00:15.988408 #3688]  INFO -- : 0:  dm-constraints (1.2.0) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/dm-constraints-1.2.0.gemspec
+I, [2014-02-11T12:00:15.988688 #3688]  INFO -- : 0:  dm-migrations (1.2.0) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/dm-migrations-1.2.0.gemspec
+I, [2014-02-11T12:00:15.988958 #3688]  INFO -- : 0:  fastercsv (1.5.5) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/fastercsv-1.5.5.gemspec
+I, [2014-02-11T12:00:15.989218 #3688]  INFO -- : 0:  json (1.8.1) from /Users/Ayaz/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/default/json-1.8.1.gemspec
+I, [2014-02-11T12:00:15.989487 #3688]  INFO -- : 0:  json_pure (1.8.1) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/json_pure-1.8.1.gemspec
+I, [2014-02-11T12:00:15.989769 #3688]  INFO -- : 0:  multi_json (1.8.4) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/multi_json-1.8.4.gemspec
+I, [2014-02-11T12:00:15.990044 #3688]  INFO -- : 0:  dm-serializer (1.2.2) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/dm-serializer-1.2.2.gemspec
+I, [2014-02-11T12:00:15.990304 #3688]  INFO -- : 0:  dm-timestamps (1.2.0) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/dm-timestamps-1.2.0.gemspec
+I, [2014-02-11T12:00:15.990579 #3688]  INFO -- : 0:  dm-transactions (1.2.0) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/dm-transactions-1.2.0.gemspec
+I, [2014-02-11T12:00:15.990898 #3688]  INFO -- : 0:  stringex (1.5.1) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/stringex-1.5.1.gemspec
+I, [2014-02-11T12:00:15.991171 #3688]  INFO -- : 0:  uuidtools (2.1.4) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/uuidtools-2.1.4.gemspec
+I, [2014-02-11T12:00:15.991449 #3688]  INFO -- : 0:  dm-types (1.2.2) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/dm-types-1.2.2.gemspec
+I, [2014-02-11T12:00:15.991719 #3688]  INFO -- : 0:  dm-validations (1.2.0) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/dm-validations-1.2.0.gemspec
+I, [2014-02-11T12:00:15.991982 #3688]  INFO -- : 0:  data_mapper (1.2.0) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/data_mapper-1.2.0.gemspec
+I, [2014-02-11T12:00:15.992242 #3688]  INFO -- : 0:  data_objects (0.10.13) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/data_objects-0.10.13.gemspec
+I, [2014-02-11T12:00:15.992522 #3688]  INFO -- : 0:  dm-do-adapter (1.2.0) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/dm-do-adapter-1.2.0.gemspec
+I, [2014-02-11T12:00:18.809836 #3688]  INFO -- : 0:  do_postgres (0.10.13) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/do_postgres-0.10.13.gemspec
+I, [2014-02-11T12:00:20.938664 #3688]  INFO -- : 0:  dm-postgres-adapter (1.2.0) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/dm-postgres-adapter-1.2.0.gemspec
+I, [2014-02-11T12:00:20.939127 #3688]  INFO -- : 0:  rack (1.5.2) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/rack-1.5.2.gemspec
+I, [2014-02-11T12:00:20.941272 #3688]  INFO -- : 0:  rack-protection (1.5.2) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/rack-protection-1.5.2.gemspec
+I, [2014-02-11T12:00:20.941616 #3688]  INFO -- : 0:  tilt (1.4.1) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-02-11T12:00:20.941911 #3688]  INFO -- : 0:  sinatra (1.4.4) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/sinatra-1.4.4.gemspec
+I, [2014-02-11T12:00:20.942221 #3688]  INFO -- : 0:  bundler (1.5.1) from /Users/Ayaz/.rvm/gems/ruby-2.1.0/specifications/bundler-1.5.1.gemspec
