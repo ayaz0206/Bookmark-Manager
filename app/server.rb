@@ -3,9 +3,9 @@ require 'data_mapper'
 require 'rack-flash'
 require 'sinatra/partial'
 
-require './lib/link'
-require './lib/tag'
-require './lib/user'
+require_relative 'models/link'
+require_relative 'models/tag'
+require_relative 'models/user'
 
 require_relative 'helpers/application'
 require_relative 'data_mapper_setup'
