@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	font-family: Monaco, Helvetica, Arial;
 	background-image: url(/images/frenchstucco.png)
@@ -9,9 +13,9 @@ a {
 	color: #b77843;
 }
 
-a.button {
+.button {
 	display: inline-block;
-	width: 80px;
+	width: 110px;
 	background-color: #82B743;
 	border: 2px solid white;
 	color: white;
@@ -21,9 +25,10 @@ a.button {
 	margin-left: 5px;
 	margin-right: 5px;
 	text-shadow: 0 0 2px rgba(0,0,0,0,0.4);
+	cursor: pointer;
 }
 
-a.button.highlighted {
+.button.highlighted {
 	background-color: #b77843;
 }
 
@@ -53,6 +58,14 @@ header #user-links {
 	text-align: right;
 }
 
+header #user-links > * {
+	display: inline-block;
+}
+
+header #user-links #welcome-message {
+	font-size: 16px;
+}
+
 #links-container {
 	background-color: white;
 	margin: 40px;
@@ -78,5 +91,27 @@ header #user-links {
 .link .source {
 	float: right;
 	font-size: 12px;
+}
+
+footer {
+	display: flex;
+	background-color: rgba(0,0,0,0.2);
+}
+
+footer > * {
+	margin: auto inherit;
+}
+
+footer img {
+	vertical-align: top;
+}
+
+footer #technologies {
+	-webkit-flex: 1;
+	flex: 1;
+}
+
+footer p {
+	padding: 5px 25px;
 }
 
