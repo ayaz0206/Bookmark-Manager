@@ -66,7 +66,7 @@ header #user-links #welcome-message {
 	font-size: 16px;
 }
 
-#links-container {
+#container {
 	background-color: white;
 	margin: 40px;
 	box-shadow: 0 0 5px rgba(0,0,0,0.4);
