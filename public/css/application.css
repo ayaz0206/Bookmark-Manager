@@ -4,8 +4,19 @@
 
 body {
 	font-family: Monaco, Helvetica, Arial;
-	background-image: url(/images/frenchstucco.png)
+	background-image: url(/images/frenchstucco.png);
 	color: #333;
+}
+
+html, body {
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -70px;
 }
 
 a {
@@ -96,6 +107,7 @@ header #user-links #welcome-message {
 footer {
 	display: flex;
 	background-color: rgba(0,0,0,0.2);
+	height: 70px;
 }
 
 footer > * {
@@ -109,10 +121,15 @@ footer img {
 footer #technologies {
 	-webkit-flex: 1;
 	flex: 1;
+	font-size: 12px;
 }
 
 footer p {
 	padding: 5px 25px;
+}
+
+.footer, .push {
+	height: 70px;
 }
 
 .flash {
