@@ -8,7 +8,7 @@
 }
 
 body {
-	font-family: Lucida Grande, Helvetica, Arial;
+	font-family: Chalkboard, Lucida Grande, Helvetica, Arial;
 	background-image: url(/images/carbon_fibre.png);
 	color: #333;
 }
@@ -32,8 +32,8 @@ a {
 .button {
 	display: inline-block;
 	width: 110px;
-	background-color: #82B743;
-	border: 2px solid white;
+	background-color: #003366;
+	border: 1px solid white;
 	color: white;
 	padding: 5px 10px;
 	text-align: center;
@@ -45,7 +45,7 @@ a {
 }
 
 .button.highlighted {
-	background-color: #b77843;
+	background-color: #dd4b39;
 }
 
 .button:hover{
@@ -142,9 +142,7 @@ footer #technologies {
 
 footer p {
 	padding: 5px 25px;
-	font-family: Papyrus;
-	font-weight: bolder;
-	font-style: oblique;
+	font-family: Chalkboard, Papyrus;
 }
 
 .footer, .push {
