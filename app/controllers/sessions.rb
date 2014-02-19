@@ -17,5 +17,5 @@ end
 delete '/sessions' do
 	flash[:notice] = "Good bye!"
 	session[:user_id] = nil
-	erb :"sessions/new"
+	erb :"sessions/new", :layout => !request.xhr?
 end
