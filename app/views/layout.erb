@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 
 <html>
-	<head>
-		<title>Bookmark Manager</title>
-
-		<link rel="stylesheet" type="text/css" href="/css/reset.css"> 
-		<link href="/css/application.css" type="text/css" rel="stylesheet">
-	</head>
-	<body>
-		<div class="wrapper">
-		<%= partial :header %>
-		<%= partial :flash %>
-		<div id='container'>
-		<%= yield %>
-		</div>
-		<div class="push"></div>
-		<div class="footer">
-		<%= partial :footer %>
-		</div>
-		<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-		<script src="/javascript/application.js"></script>
-	</body>
+<head>
+  <title>Bookmark manager</title>
+  <link rel="stylesheet" type="text/css" href="/css/reset.css">  
+  <link rel="stylesheet" type="text/css" href="/css/application.css">  
+  
+</head>
+<body>
+  <div class="wrapper">
+    <%= partial :header %>
+    <%= partial :flash %>
+    <div id='container'>
+      <%= yield %>
+    </div>
+    <div class="push"></div>
+  </div>
+  <div class="footer">
+    <%= partial :footer %>
+  </div>
+  <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+  <script src="/javascript/application.js" type="text/javascript"></script>  
+</body>
 </html>
