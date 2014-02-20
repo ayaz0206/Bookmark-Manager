@@ -1,6 +1,16 @@
+@import url('http://fonts.googleapis.com/css?family=Gabriela');
+@import url('http://fonts.googleapis.com/css?family=Gafata');
+
+
+@media(max-width: 320px) {
+	#container {
+		margin: 10px;
+	}
+}
+
 #logo {
 	font-size: 2em;
-	font-family: Zapfino, American Typewriter;
+	font-family: Gabriela, Zapfino, American Typewriter;
 }
 
 * {
@@ -8,7 +18,7 @@
 }
 
 body {
-	font-family: Chalkboard, Lucida Grande, Helvetica, Arial;
+	font-family: Gafata, Chalkboard, Lucida Grande, Helvetica, Arial;
 	background-image: url(/images/carbon_fibre.png);
 	color: #333;
 }
