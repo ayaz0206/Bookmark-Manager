@@ -1,6 +1,6 @@
 #logo {
 	font-size: 2em;
-	font-family: Herculanum, Zapfino, American Typewriter;
+	font-family: Zapfino, American Typewriter;
 }
 
 * {
@@ -32,12 +32,13 @@ a {
 .button {
 	display: inline-block;
 	width: 110px;
+	height: 40px;
 	background-color: #003366;
-	border: 1px solid white;
+	border: 1px solid black;
 	color: white;
-	padding: 5px 10px;
+	padding: 10px 10px;
 	text-align: center;
-	border-radius: 4px;
+	font-family: Helvetica;
 	margin-left: 5px;
 	margin-right: 5px;
 	text-shadow: 0 0 2px rgba(0,0,0,0,0.4);
@@ -187,6 +188,9 @@ h1 {
 
 form {
 	text-align: center;
+  margin: 25px auto;
+  width: 300px;
+  position: relative;
 }
 
 form p {
@@ -196,5 +200,29 @@ form p {
 form input[type="text"], form input[type="password"] {
 	border: 1px solid black;
 	font-size: 16px;
-	width: 400px;
+	width: 300px;
+	height: 40px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  background: #fff;
+  border-color: black;
+  color: #e74c3c;
+  outline: none;
+
+}
+
+
+::-webkit-input-placeholder {
+  color: #e74c3c;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #e74c3c;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #e74c3c;
+}
+:-ms-input-placeholder {
+  color: #e74c3c;
 }
