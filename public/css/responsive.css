@@ -1,7 +1,16 @@
-@media(max-width: 320px) {
-
+@media(max-width: 480px) {
   body {
     font-size: 12px;    
+  }
+
+  #logo {
+  font-size: 1.3em;
+  font-family: Gabriela, Zapfino, American Typewriter;
+  }
+
+  form input[type="text"], form input[type="password"] {
+    width: 250px;
+    font-size: auto;
   }
 
   header {
@@ -11,11 +20,12 @@
     header #logo {
       margin-right: 10px;
       width: 80px;
-    }
+    }  
 
   .button {
     font-size: 10px;
     width: auto;
+    margin-left: 0;
   }
 
   #container {
@@ -37,7 +47,21 @@
       font-size: 10px;
     }
 
-  .footer, .push {
+  footer {
+    padding: 0 10px;
+  }
+
+    footer p {
+      padding: 5px;
+    }
+
+    footer #makersacademy-logo img {
+      width: 150px;
+    } 
+}
+
+@media(max-width: 320px) {
+  footer, .footer, .push {
     height: 130px;
   }
 
@@ -46,17 +70,12 @@
   }
 
   footer {
-    display: flex;
     display: block;    
     text-align: center;
-    bottom: 0;
   }
-
-    footer p {
-      padding: 5px;
-    }
 
     footer #makersacademy-logo img {
       width: 100%;
     }
+
 }
